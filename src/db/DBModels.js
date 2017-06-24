@@ -19,20 +19,8 @@ class DBModels {
         return this._models;
     }
 
-    get User() {
-        return this._models.User;
-    }
-
     get Sender() {
         return this._models.Sender;
-    }
-
-    get AccountStatement() {
-        return this._models.AccountStatement;
-    }
-
-    get MainSearchParam() {
-        return this._models.MainSearchParam;
     }
 
     get Webhook() {
